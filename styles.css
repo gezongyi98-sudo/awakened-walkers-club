@@ -359,6 +359,29 @@ h3 {
   object-fit: cover;
 }
 
+.journal-feature.natural img,
+.journey-gallery img {
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+.journey-gallery {
+  grid-template-columns: 1fr;
+}
+
+.journey-subtitle {
+  margin: calc(-1 * var(--s-2)) 0 var(--s-5);
+  color: var(--faint) !important;
+  font-size: 0.92rem !important;
+  letter-spacing: 0.02em;
+}
+
+.journey-article .article-body h3 {
+  margin-top: var(--s-7);
+  font-size: 2rem;
+}
+
 .journal-feature figcaption,
 .journal-gallery figcaption {
   margin-top: var(--s-2);
