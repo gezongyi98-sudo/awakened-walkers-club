@@ -697,3 +697,22 @@ dd,
     width: 100%;
   }
 }
+
+
+/* Walk 03: preserve every photograph's original frame on all screen sizes. */
+.journey-article .journal-feature,
+.journey-article .journal-gallery,
+.journey-article .journal-gallery figure {
+  overflow: visible;
+}
+
+.journey-article .journal-feature img,
+.journey-article .journal-gallery img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
+}
