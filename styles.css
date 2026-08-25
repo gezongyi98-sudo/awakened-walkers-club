@@ -533,6 +533,12 @@ dd,
   margin-bottom: 0;
 }
 
+.journal-list .text-link {
+  width: 124px;
+  justify-self: end;
+  text-align: left;
+}
+
 .join-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(300px, 0.55fr);
@@ -577,6 +583,8 @@ dd,
 
   .journal-list .text-link {
     grid-column: 2;
+    width: auto;
+    justify-self: start;
   }
 }
 
